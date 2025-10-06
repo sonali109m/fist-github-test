@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSET Priject</title>
+</head>
+<body>
+    <header>
+          <!-- Center text -->
+        <div style="text-align: center;">
+            <h1>ASSET-BWCCI Project </h1>
+            <h2>Trainee Registration Form</h2>
+        </div>
+    </header>
+    <!-- Course information -->
+    <p>
+        Name of the Traning Institute:................................................................................................................
+    </p>
+    <p>Course/Trade Name:................................................................. Course Type:.........................................
+     </p>
+    <!-- Login Information -->
+    <h3>
+        <u>Login Information</u>
+    </h3>
+     <form>
+        <section>
+
+            <label for="username">Your Name:</label>
+            <input id="username" type="text">
+            <label for="email">Email Adress:</label>
+            <input id="email" type="email">
+            <label for="number"> Contact Number:</label>
+            <input id="number" type="tel">
+            <br>
+            <br>
+            <label for="emergency-number">Emergency Contact No.:</label>
+            <input type="tel" id="emergency-number">
+            <label for="password">Password:</label>
+            <input type="password"id="password">
+            <label for="confirm-password"> Confirm Password:</label>
+            <input type="password"id="confirm-password">
+        </section>
+        <!-- Basic Information -->
+        <section>
+            <h3> 
+            <u>Basic information </u> 
+            </h3>
+            <label for="nid-number">NID:</label>
+            <input type="number" id="nid-number">
+            <label for="fullname">Full Name[English]:</label>
+            <input type="text" id="fullname">
+            <label for="fullname-bangla">Full Name[Bangla]:</label>
+            <input type="text" id="fullname-bangla">
+            <br>
+            <br>
+            <label for="father-name">Father's Name[English]:</label>
+            <input type="text" id="father-name">
+            <label for="occupation">Father's Occupation:</label>
+            <input type="text" id="occupation">
+            <br>
+            <br>
+            <label for="mothers-name">Mother's Name[English]:</label>
+            <input type="text" id="mothers-name">
+            <label for="mothers-occupation">Mother's Occupation:</label>
+            <input type="text" id="mothers-occupation">
+        </section>
+        <section>
+            <form>
+            <span>Gender :</span>
+            <input type="radio" name="gender" />
+            <span>Male</span>
+            <input type="radio" name="gender" />
+            <span>Female</span>
+            </form>
+        </section>
+        <!-- Profiles -->
+        <section>
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date">
+            <label for="disability">Person of Disability:</label>
+            <input type="text" id="disability">
+            <br>
+            <br>
+            <label for="religion">Religion:</label>
+            <input type="text" id="religion">
+            <label for="blood">Blood Group:</label>
+            <select id="blood" name="blood" required placeholder="Group"  >
+            <option>AB+</option>
+            <option>AB-</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>O+</option>
+            <option>O-</option>
+            </select>
+            <label for="marital_status">Marital Status:</label>
+            <select name="matarial" id="matarial">
+                <option>Select</option>
+                <option>Single</option>
+                <option>Married</option>
+                <option>Divorced</option>
+                <option>Widowed</option>
+            </select>
+        </section>
+        <!-- Input File -->
+         <br>
+         <br>
+        <section>
+            <label for="nidfile">NID/Birth Certificate/Passport(.jpg, .png, .jpeg):</label>
+            <input type="file" id="nidfile" name="nidfile" accept=".jgp, .png, .jpeg ">
+            <br>
+            <br>
+            <label for="signature"> Signature(.jpg, .jgep, .png):</label>
+            <input type="file" id="signature" name="signature"accept=".jgp, .png, .jpeg ">
+            <label for="profile_photo">Profile Photo:</label>
+            <input type="file" name="profile_photo" id="profile_photo" accept=".jgp, .png, .jpeg " >
+        </section>
+        <!-- Address requirements -->
+         <h3>Parmanent Asdress:</h3>
+        <section>
+            <label for="division">Division:</label>
+            <input type="text" name="division" id="division">
+            <label for="district">District:</label>
+            <input type="text" name="district" id="district">
+            <label for="upazila">Upazila:</label>
+            <input type="text" name="upazila" id="upazila">
+            <br>
+            <br>
+            <label for="post_office">Post office:</label>
+            <input type="text" name="post_office" id="post_office">
+             <label for="area">From Rural/Urban Area:</label>
+             <select name="area" id="area">
+             <option value="">Rural</option>
+             <option value="">Urban</option>
+            </select>
+            <label for="address">Address:</label>
+            <input type="text" name="address" id="address">
+        </section>
+        <h3>Present Address:</h3>
+        <section>
+            <input type="checkbox" id="same">
+            <label for="same">Same as Permanent Address.</label>
+            <br>
+            <br>
+             <label for="division">Division:</label>
+            <input type="text" name="division" id="division">
+            <label for="district">District:</label>
+            <input type="text" name="district" id="district">
+            <label for="upazila">Upazila:</label>
+            <input type="text" name="upazila" id="upazila">
+            <br>
+            <br>
+            <label for="post_office">Post office:</label>
+            <input type="text" name="post_office" id="post_office"> 
+            <label for="address">Address:</label>
+            <input type="text" name="address" id="address">
+            <br>
+            <br>
+             <!-- Education Qualification -->
+            <label for="board">Board/University:</label>  
+            <input type="text" name="board" id="board">
+            <label for="level">Highest Educational Level :</label>
+            <input type="text" name="level" id="level">
+            <br>
+            <br>
+            <label for="institute">Highest Educational Institute Name:</label>
+            <input type="text" name="institute" id="institute">
+            <label for="passing-year">Highest Education Passing Year:</label>
+            <input type="text" name="passing-year" id="passing-year">
+            <br>
+            <br>
+            <span>TVET Certificae:</span>
+            <input type="radio" name="yes" id="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="no" id="no">
+            <label for="no">No</label>
+        </section>
+    </form>
+    <br>
+    <br>
+    <section style="text-align: left;">
+        <span>_________________</span>
+        <br>
+        <span>Signature of Trainee</span>
+    </section>
+</body>
+</html>
